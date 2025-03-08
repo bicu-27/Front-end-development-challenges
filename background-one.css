@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.bg-image{
+    width: 100vw;
+    height: 100vh;
+    background: url("https://i.pinimg.com/736x/13/2c/e4/132ce4879ede2f96917019dc91c7b27e.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-image: cover;
+    background-size: 70%;
+    
+
+
+}
+h1{
+    font-size: 50pz;
+}
+.container{
+    padding: 100px;
+}
+@media(max-width:500px){
+    .container{
+        padding: 10px;
+    }
+}

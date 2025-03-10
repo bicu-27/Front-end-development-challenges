@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+    color: white;
+    background-color: rgb(8, 8, 48);
+    
+
+
+}
+.testimonal-container{
+    width: 30%;
+    height: 20%;
+    background: linear-gradient(90deg, #004D98, #A50044);
+
+  
+    position: relative;
+    min-width: 300px;
+    padding: 70px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    
+
+}
+img{
+    width: 20%;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    bottom: 80%;
+    
+}

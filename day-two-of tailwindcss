@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind core concepts </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="w-[90px] h-[200px] bg-blue-500 text-white px-2 py-2 rounded-[10px]">
+        Click Me!
+      </button>
+      
+   
+      <div class="flex gap-4 p-4 bg-gray-100">
+        <div class="w-20 h-20 bg-blue-500 text-white flex items-center justify-center">1</div>
+        <div class="w-20 h-20 bg-green-500 text-white flex items-center justify-center">2</div>
+        <div class="w-20 h-20 bg-red-500 text-white flex items-center justify-center">3</div>
+      </div>
+      
+      <p>Only the blue part is displaying in the web browser</p>
+      
+  
+      <div class="flex gap-4 p-4 bg-gray-100">
+        <div class="w-20 h-20 bg-blue-500 text-white flex items-center justify-center">1</div>
+        <div class="w-20 h-20 bg-green-500 text-white flex items-center justify-center">2</div>
+        <div class="w-20 h-20 bg-red-500 text-white flex items-center justify-center">3</div>
+      </div>
+      
+    
+</body>
+</html>

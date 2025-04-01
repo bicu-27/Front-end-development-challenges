@@ -8,3 +8,12 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+second_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
